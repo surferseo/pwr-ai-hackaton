@@ -1,21 +1,13 @@
 import pandas as pd
 import numpy as np
 
-df = pd.read_csv("scrapes.csv")
-df.drop(index=df[df["scrape_id"] == "scrape_id"].index, inplace=True)
+df = pd.read_csv("data.csv")
+df.drop(index=df[df["search_result_id"] == "search_result_id"].index, inplace=True)
 df = df.astype(
-    {
-        "scrape_id": np.int32,
-        "language_code": str,
-        "inserted_at": np.datetime64,
-        "position": np.int8,
-        "brief_content_sections": str,
-    }
+    {"search_result_id": np.int32, "search_date": np.datetime64, "position": np.int8}
 )
 df.sort_values(
-    by=["language_code", "inserted_at", "scrape_id", "position"], inplace=True
+    by=["language_code", "search_date", "search_result_id", "position"], inplace=True
 )
 df.reset_index(inplace=True, drop=True)
-df[df.language_code == "en"]
-
-df.to_csv("scrapes.csv", index=False)
+df.to_csv("data_clean.csv", index=False)
