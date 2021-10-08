@@ -1,8 +1,3 @@
-# AI Hackaton Data
-
-## Description
-## Loading
-``` Python
 import pandas as pd
 import numpy as np
 import json
@@ -14,4 +9,3 @@ df = pd.read_csv(
     "scrapes_clean.csv", dtype=dtypes, parse_dates=parse_dates, converters=converters
 )
 print(df)
-```
