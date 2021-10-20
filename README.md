@@ -22,6 +22,10 @@ Our tasks:
   
 ## Download
 Download data from [here](https://console.cloud.google.com/storage/browser/pwr_hackaton?project=dogebot-1198). Select `data_clean.csv` .
+
+OR
+
+let's connect P2P via [sharedrop](https://www.sharedrop.io/)
 ## Loading
 ``` Python
 import pandas as pd
