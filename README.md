@@ -18,16 +18,14 @@ Our tasks:
 * Paraphrasing
 * Text completion
 * Whole article generation (list of unique headings and contents based on scraped websites)
-* yours
+* yours...
   
 ## Download
 Download data from here:
 
- - [data_clean.csv](https://storage.cloud.google.com/pwr_hackaton/data_clean.csv)
+- [data_clean.csv](https://storage.cloud.google.com/pwr_hackaton/data_clean.csv)
 
-OR
-
-let's connect P2P via [sharedrop](https://www.sharedrop.io/)
+or let's connect P2P via [sharedrop](https://www.sharedrop.io/).
 ## Loading
 ``` Python
 import pandas as pd
@@ -41,3 +39,5 @@ df = pd.read_csv(
     "data_clean.csv", dtype=dtypes, parse_dates=parse_dates, converters=converters
 )
 ```
+## Sampling
+Collected data comes from last few months. To sample it, simply cut scope to fewer months, e.g last 3 months out of 6 all. Alternatively you can take alternate days.
