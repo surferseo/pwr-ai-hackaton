@@ -21,7 +21,10 @@ Our tasks:
 * yours
   
 ## Download
-Download data from [here](https://console.cloud.google.com/storage/browser/pwr_hackaton?project=dogebot-1198). Select `data_clean.csv` .
+Download data from here:
+
+ - [data_clean.csv](https://storage.cloud.google.com/pwr_hackaton/data_clean.csv)
+ - [data.csv](https://storage.cloud.google.com/pwr_hackaton/data.csv)
 
 OR
 
