@@ -3,7 +3,7 @@
 ## Description
 In general, provided data contains scraped web pages from Google search results.
 
-Each search result has fields: `search_result_id`, `keyword`, `search_date`, `country_language_code`, `country_name`, `city_name`, `latitude`, `longitude`, `device`(mobile or desktop), and 20 first webpages ordered by field `position`. Each webpage has `url`, `seo_score`(calculated with Surfer's rules), `title`(from HTML head) and two content columns: `content_sections` and `content_unstructured` extracted from its HTML. `content_unstructured` is whole page content concatenated into one great string. `content_sections` is structured and much cleaner representation. A single section consists of `heading`, `heading_level` and `content`. For the curious: `content` are simply merged \<p> paragraphs under given heading.
+Each search result has fields: `search_result_id`, `keyword`, `search_date`, `country_language_code`, `country_name`, `city_name`, `latitude`, `longitude`, `device`(mobile or desktop), and 20 first webpages ordered by field `position`. Each webpage has `url`, `content_score`(calculated with Surfer's rules), `title`(from HTML head) and two content columns: `content_sections` and `content_unstructured` extracted from its HTML. `content_unstructured` is whole page content concatenated into one great string. `content_sections` is structured and much cleaner representation. A single section consists of `heading`, `heading_level` and `content`. For the curious: `content` are simply merged \<p> paragraphs under given heading.
 
 Collected data is multilingual, but 70% of searches are in English. You can go multilingual or limit scope to `en` only, we are totally ok with it.
 
@@ -41,7 +41,7 @@ import json
 dtypes = {
     "search_result_id": np.int32,
     "position": np.int8,
-    "seo_score": pd.Int8Dtype(),
+    "content_score": pd.Int8Dtype(),
     "latitude": np.float32,
     "longitude": np.float32,
 }
@@ -58,7 +58,7 @@ names = [
     "latitude",
     "longitude",
     "url",
-    "seo_score",
+    "content_score",
     "device",
     "title",
     "content_sections",

@@ -5,7 +5,7 @@ import json
 dtypes = {
     "search_result_id": np.int32,
     "position": np.int8,
-    "seo_score": pd.Int8Dtype(),
+    "content_score": pd.Int8Dtype(),
     "latitude": np.float32,
     "longitude": np.float32,
 }
@@ -22,7 +22,7 @@ names = [
     "latitude",
     "longitude",
     "url",
-    "seo_score",
+    "content_score",
     "device",
     "title",
     "content_sections",
