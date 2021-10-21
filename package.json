@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "node-fetch": "^3.0.0"
+  },
+  "name": "pwr-ai-hackaton",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:surferseo/pwr-ai-hackaton.git",
+  "author": "Mieszko Wawrzyniak <kaaboaye@gmail.com>",
+  "license": "MIT"
+}
