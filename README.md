@@ -14,7 +14,7 @@ We propose several tasks that can be accomplished using given data but teams are
 Our tasks:
 * Keyword extraction
 * Topic modelling
-* Revealing most important words/phrases/topics
+* Revealing most important words/phrases/topics (Google reverse engineering)
 * Paraphrasing
 * Text completion
 * Whole article generation (list of unique headings and contents based on scraped websites)
