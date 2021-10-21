@@ -27,7 +27,7 @@ Our tasks:
 ## Download
 Download data from here:
 
-- [data_clean.csv](https://storage.cloud.google.com/pwr_hackaton/data_clean.csv)
+- [data.csv.gz](https://storage.googleapis.com/pwr_hackaton/data.csv.gz)
 
 ask for pendrive or...
 
