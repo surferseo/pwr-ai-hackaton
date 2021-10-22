@@ -101,14 +101,19 @@ Cheers !
 
 # Surfer Local things
 
+## Data
+
+
+- [places.csv.gz](https://storage.googleapis.com/pwr_hackaton/data.csv.gz)
+
 https://app.surferlocal.com/
 
 Login: mieszko+hackathon@surferlocal.com
 Pass: JestemHackere
 
-- places.csv - SERP
-- phrases.csv - prominentne frazy w danych SERPACH
-- metrics.csv - jakieś losowe metrtyki które nie wiem co znaczą do danej wizytówki
+- [places.csv.gz](https://storage.googleapis.com/pwr_hackaton/places.csv.gz) - SERP
+- [phrases.csv.gz](https://storage.googleapis.com/pwr_hackaton/phrases.csv.gz) - prominentne frazy w danych SERPACH
+- [metrics.csv.gz](https://storage.googleapis.com/pwr_hackaton/metrics.csv.gz) - jakieś losowe metrtyki które nie wiem co znaczą do danej wizytówki
 
 Podgląd danych
 
