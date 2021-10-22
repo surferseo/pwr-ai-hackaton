@@ -103,9 +103,6 @@ Cheers !
 
 ## Data
 
-
-- [places.csv.gz](https://storage.googleapis.com/pwr_hackaton/data.csv.gz)
-
 https://app.surferlocal.com/
 
 Login: mieszko+hackathon@surferlocal.com
