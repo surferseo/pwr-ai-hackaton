@@ -98,3 +98,18 @@ We'd like you to present project results on 5-10 minutes presentation. Presetati
 Send presentation link to maciejgruszczynski@surferseo.com, please.
 
 Cheers !
+
+# Surfer Local things
+
+https://app.surferlocal.com/
+
+Login: mieszko+hackathon@surferlocal.com
+Pass: JestemHackere
+
+- places.csv - SERP
+- phrases.csv - prominentne frazy w danych SERPACH
+- metrics.csv - jakieś losowe metrtyki które nie wiem co znaczą do danej wizytówki
+
+Podgląd danych
+
+https://app.surferlocal.com/shared-grid/abc/<<shared_permalink>>
